@@ -15,30 +15,30 @@
 
 <body>
     <header class="header">
-        <div class="container">
-            <div class="header-top">
-                <a href="#" class="logo">
-                    <img src="img/horizontal-logo.svg" alt="Logo: Best Tour Plan" class="logo__image">
-                </a>
+        <div class="header-top container">
+            <a href="#" class="logo">
+                <img src="img/horizontal-logo.svg" alt="Logo: Best Tour Plan" class="logo__image">
+            </a>
 
-                <form action="#" class="search header__search">
-                    <input type="text" class="search__input" placeholder="Search Location">
-                    <button class="search__button">
-                        <img src="img/search.svg" alt="Icon: search">
-                    </button>
-                </form>
-                <!-- /.search -->
+            <form action="#" class="search header__search">
+                <input type="text" class="search__input" placeholder="Search Location">
+                <button class="search__button">
+                    <img src="img/search.svg" alt="Icon: search">
+                </button>
+            </form>
+            <!-- /.search -->
 
-                <a href="#" class="user">
-                    <img src="img/user-avatar.jpg" alt="Avatar: Nathan" class="user__avatar">
-                    <span class="user__name">Nathan</span>
-                </a>
-                <!-- /.user -->
-            </div>
-            <!-- /header-top -->
+            <a href="#" class="user">
+                <img src="img/user-avatar.jpg" alt="Avatar: Nathan" class="user__avatar">
+                <span class="user__name">Nathan</span>
+            </a>
+            <!-- /.user -->
+        </div>
+        <!-- /header-top -->
 
-            <nav>
-                <ul class="header-menu">
+        <nav class="header-menu">
+            <div class="container">
+                <ul class="header-menu__list">
                     <li class="header-menu__item">
                         <a href="#" class="header-menu__link">All Deals</a>
                     </li>
@@ -61,10 +61,25 @@
                         <a href="#" class="header-menu__link">Rodrigues</a>
                     </li>
                 </ul>
-            </nav>
-            <!-- /.header-menu -->
-        </div>
+            </div>
+        </nav>
+        <!-- /.header-menu -->
+        <nav class="breadcrumb container">
+            <a href="#" class="breadcrumb__link">Home / Flash Offers / Grand Hilton Hotel</a>
+        </nav>
     </header>
+
+    <section class="hotel container">
+        <div class="hotel__header">
+            <div class="hotel__discr">
+                <img src="img/star.svg" alt="" class="hotel__stars">
+                <h2 class="hotel__title">GRAND HILTON HOTEL</h2>
+                <button class="hotel__offer button">Flash Offer</button>
+                <span class="hotel__text">Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free</span>
+            </div>
+            <button class="button hotel__user-rating">User Rating</button>
+        </div>
+    </section>
 </body>
 
 </html>
