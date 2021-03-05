@@ -454,22 +454,27 @@ template {
 
 .search__input::-webkit-input-placeholder {
   font-size: 12px;
+  color: inherit;
 }
 
 .search__input::-moz-placeholder {
   font-size: 12px;
+  color: inherit;
 }
 
 .search__input:-ms-input-placeholder {
   font-size: 12px;
+  color: inherit;
 }
 
 .search__input::-ms-input-placeholder {
   font-size: 12px;
+  color: inherit;
 }
 
 .search__input::placeholder {
   font-size: 12px;
+  color: inherit;
 }
 
 .search__button {
@@ -538,7 +543,7 @@ template {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
   }
-  .navbar-menu__linkfz12 {
+  .navbar-menu__link {
     font-size: 12px;
     line-height: 15px;
   }
