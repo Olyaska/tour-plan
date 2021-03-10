@@ -884,8 +884,8 @@ template {
 }
 
 .map-iframe {
-  width: 400px;
-  height: 300px;
+  width: 350px;
+  height: 213px;
 }
 
 @media (max-width: 1200px) {
@@ -958,6 +958,9 @@ template {
   }
   .map {
     width: 48%;
+  }
+  .map-iframe {
+    width: 100%;
   }
 }
 
@@ -1048,6 +1051,23 @@ template {
   .logo {
     width: 99px;
   }
+  .slider {
+    height: 179px;
+    margin-top: 18px;
+  }
+  .slider-button {
+    -webkit-background-size: 10px 10px;
+            background-size: 10px 10px;
+  }
+  .slider-button--prev {
+    left: -2px;
+  }
+  .slider-button--next {
+    right: -2px;
+  }
+  .hotel__slider {
+    margin-bottom: 22px;
+  }
   .hotel-right {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1057,28 +1077,15 @@ template {
   }
   .booking {
     width: 100%;
-  }
-  .map {
-    width: 100%;
-  }
-}
-
-@media (max-width: 576px) {
-  .hotel__slider {
-    margin-bottom: 22px;
-  }
-  .slider {
-    height: 179px;
-    margin-top: 18px;
-  }
-  .booking {
     margin-bottom: 20px;
   }
   .map {
+    width: 100%;
     height: 172px;
   }
   .map-iframe {
     width: 100%;
+    height: 172px;
   }
 }
 /*# sourceMappingURL=style.css.map */
