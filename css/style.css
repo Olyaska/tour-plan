@@ -1136,10 +1136,6 @@ template {
   margin-bottom: 4px;
 }
 
-.reviews-slider__rating {
-  margin-right: 0;
-}
-
 .reviews-slider__text {
   max-width: 537px;
   font-size: 12px;
