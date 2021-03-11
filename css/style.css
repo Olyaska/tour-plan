@@ -651,6 +651,7 @@ template {
   -webkit-border-radius: 8px;
           border-radius: 8px;
   overflow: hidden;
+  margin: 0;
 }
 
 .hotel-slider__item {
@@ -1037,7 +1038,7 @@ template {
   background-color: #fff;
   -webkit-border-radius: 8px;
           border-radius: 8px;
-  padding: 0 62px 30px;
+  padding: 0 47px 30px;
 }
 
 .reviews-slider__item::before {
@@ -1138,18 +1139,21 @@ template {
 
 .reviews-slider__text {
   max-width: 537px;
+  max-height: 180px;
   font-size: 12px;
   line-height: 160%;
   text-align: justify;
   margin: auto;
+  padding: 0 15px;
+  overflow-y: auto;
 }
 
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
   }
-  .slider {
-    width: 590px;
+  .hotel-slider {
+    width: 580px;
   }
   .hotel-slider__image {
     height: 100%;
@@ -1318,7 +1322,7 @@ template {
   .hotel-info__text {
     width: 100%;
   }
-  .stars {
+  .hotel__stars {
     -webkit-flex-basis: auto;
         -ms-flex-preferred-size: auto;
             flex-basis: auto;
@@ -1376,14 +1380,14 @@ template {
     height: 179px;
     margin-top: 18px;
   }
-  .hotel-slider-button {
+  .hotel-slider__button {
     -webkit-background-size: 10px 10px;
             background-size: 10px 10px;
   }
-  .hotel-slider-button--prev {
+  .hotel-slider__button--prev {
     left: -2px;
   }
-  .hotel-slider-button--next {
+  .hotel-slider__button--next {
     right: -2px;
   }
   .hotel__slider {
@@ -1420,16 +1424,19 @@ template {
     font-weight: 300;
     font-size: 20px;
     line-height: 25px;
-    margin-bottom: 37px;
+    margin-bottom: 38px;
   }
   .newsletter-title__strong {
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
-    line-height: 38px;
+    line-height: 42px;
   }
   .subscribe {
     width: 100%;
+  }
+  .subscribe__input {
+    padding-left: 22px;
   }
   .reviews__title {
     max-width: 245px;
@@ -1437,6 +1444,10 @@ template {
     margin-bottom: 42px;
     font-size: 18px;
     line-height: 23px;
+  }
+  .reviews-slider__text {
+    max-height: 260px;
+    padding: 0 3px;
   }
 }
 /*# sourceMappingURL=style.css.map */
