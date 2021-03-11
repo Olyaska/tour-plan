@@ -8,6 +8,9 @@
         height: 100%
         width: 100%
         object-fit: cover
+  .card
+    width: 230px
+    height: 230px
 
 @media (max-width:  992px)
   .container, .newsletter-wrapper
@@ -58,12 +61,25 @@
     &-slider
       &__item
         max-width: 580px
+      &__text
+        max-height: 130px
       &__button
-        top: 42%
+        top: 50%
         &--prev
           left: 0
         &--next
           right: 0
+  .activities
+    padding-top: 55px
+    &-wrapper
+      flex-wrap: wrap
+    &__card
+      margin-bottom: 20px
+  .card
+    width: 48%
+    height: 255px
+    &__title
+      max-width: 60%
 
 @media (max-width:  767px)
   .container
@@ -183,6 +199,7 @@
     &__input
       padding-left: 22px
   .reviews
+    padding-bottom: 50px
     &__title
       max-width: 245px
       margin: auto
@@ -190,6 +207,21 @@
       font-size: 18px
       line-height: 23px
     &-slider
+      &__item
+        padding: 0 20px 36px 20px
       &__text
-        max-height: 260px
-        padding: 0 3px
+        max-height: 270px
+        padding: 0 10px
+        text-align: left
+  .activities
+    padding-top: 37px
+    &__title
+      font-size: 18px
+      line-height: 23px
+      margin-bottom: 36px
+  .card
+    width: 100%
+    &__image
+      width: 100%
+    &__title
+      max-width: 70%
