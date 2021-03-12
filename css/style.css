@@ -1353,9 +1353,6 @@ template {
     width: 48%;
     height: 255px;
   }
-  .card__title {
-    max-width: 60%;
-  }
 }
 
 @media (max-width: 767px) {
@@ -1563,7 +1560,7 @@ template {
     padding: 0 20px 36px 20px;
   }
   .reviews-slider__text {
-    max-height: 270px;
+    max-height: 160px;
     padding: 0 10px;
     text-align: left;
   }
@@ -1581,8 +1578,11 @@ template {
   .card__image {
     width: 100%;
   }
-  .card__title {
-    max-width: 70%;
+}
+
+@media (max-width: 460px) {
+  .reviews-slider__text {
+    max-height: 270px;
   }
 }
 /*# sourceMappingURL=style.css.map */
