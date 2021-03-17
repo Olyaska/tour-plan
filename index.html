@@ -17,14 +17,14 @@
 </head>
 
 <body>
-    <header class="navbar">
+    <header class="navbar navbar--mobile--fixed">
         <div class="container">
             <div class="navbar-top">
                 <a href="#" class="logo">
                     <img src="img/horizontal-logo.svg" alt="Logo: Best Tour Plan" class="logo__image">
                 </a>
 
-                <form action="#" class="search navbar__search">
+                <form action="#" class="search navbar__search navbar__search--mobile--hidden">
                     <input type="text" class="search__input" placeholder="Search Location">
                     <button class="search__button">
                         <img src="img/search.svg" alt="Icon: search">
@@ -32,7 +32,7 @@
                 </form>
                 <!-- /.search -->
 
-                <a href="#" class="user navbar__user">
+                <a href="#" class="user navbar__user navbar__user--mobile--hidden">
                     <img src="img/user-avatar.jpg" alt="Avatar: Nathan" class="user__avatar">
                     <span class="user__name">Nathan</span>
                 </a>
@@ -49,6 +49,20 @@
         <nav class="navbar-bottom">
             <div class="container">
                 <ul class="navbar-menu">
+                    <li class="navbar-menu__item navbar-menu__item--mobile--visible">
+                        <a href="#" class="user navbar__user navbar__user--mobile--visible">
+                            <img src="img/user-avatar.jpg" alt="Avatar: Nathan" class="user__avatar">
+                            <span class="user__name user__name--light">Nathan</span>
+                        </a>
+                    </li>
+                    <li class="navbar-menu__item navbar-menu__item--mobile--visible">
+                        <form action="#" class="search navbar__search navbar__search--mobile--visible">
+                            <input type="text" class="search__input" placeholder="Search Location">
+                            <button class="search__button">
+                                <img src="img/search.svg" alt="Icon: search">
+                            </button>
+                        </form>
+                    </li>
                     <li class="navbar-menu__item">
                         <a href="#" class="navbar-menu__link">All Deals</a>
                     </li>
@@ -89,7 +103,6 @@
             </li>
         </ul>
     </nav>
-    <!--breadcrumb-->
 
     <section class="hotel container">
         <div class="hotel-info">
@@ -187,7 +200,6 @@
         </div>
         <!-- /.hotel-grid -->
     </section>
-    <!-- /.hotel -->
 
     <div class="newsletter">
         <div class="newsletter-wrapper">
@@ -201,7 +213,6 @@
             <!-- /.subscribe -->
         </div>
     </div>
-    <!-- /.newsletter -->
 
     <div class="reviews container">
         <!-- <div class=""> -->
@@ -274,7 +285,6 @@
 
         <!-- </div> -->
     </div>
-    <!-- /.reviews -->
 
     <section class="activities container">
         <h2 class="activities__title">Other Activities</h2>
@@ -309,7 +319,6 @@ course" class="card__image">
             <!-- ./card -->
         </div>
     </section>
-    <!-- /.activities -->
 
     <footer class="footer">
         <div class="container">
@@ -382,8 +391,8 @@ course" class="card__image">
                             </div>
                             Tel (business hours) : 269
                             1500<br>
-                            Tel (hotline) Monday - Saturday: 52&#8209;56-61-38 (08:00 am – 20:00 pm)<br>
-                            Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)
+                            Tel (hotline) Monday - Saturday: 52&#8209;56&#8209;61&#8209;38 (08:00 am – 20:00 pm)<br>
+                            Tel (hotline) Sunday: 52&#8209;56&#8209;61&#8209;38 (08:00 am – 14:00 pm)
                         </li>
                         <li class="footer__item footer__item--mb-2">
                             <div class="footer__icon-wrapper">
@@ -420,7 +429,6 @@ course" class="card__image">
             <!-- /.footer-bottom -->
         </div>
     </footer>
-    <!-- /.footer -->
 
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
