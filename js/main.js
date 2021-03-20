@@ -47,7 +47,8 @@ modalClose.addEventListener('click', () => {
   modalDialog.classList.remove('modal__dialog--visible')
 })
 document.addEventListener('keydown', (e) => {
-  if (e.code = 'Escape') {
+  if (e.code === 'Escape') {
+    console.log(e.code = 'Escape');
     modalOverlay.classList.remove('modal__overlay--visible')
     modalDialog.classList.remove('modal__dialog--visible')    
   }
