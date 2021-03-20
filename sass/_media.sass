@@ -417,9 +417,21 @@
     &-pay
       left: 0
       top: 180%
+  .modal
+    &__dialog
+      width: 96%
+      padding: 33px
+    &__info
+      margin-top: 15px
 
 @media (max-width: 460px)
   .reviews
     &-slider
       &__text
         max-height: 270px
+
+@media  ( max-height: 520px )
+  .modal
+    &__dialog
+      top: 50%
+      height: 97vh
